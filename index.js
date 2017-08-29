@@ -1,7 +1,10 @@
 function the BeatlesPlay(musicians, instruments) {
+  var empty = []
+
   for (var i = 0; i < musicians.length; i++) {
-    musicians[i]
+    empty.push(musicians[i]);
   }
+  return empty
 }
 
 function johnLennonFacts(facts) {
@@ -9,7 +12,7 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(number) {
-  var empty = []
+  
 
 
 }
